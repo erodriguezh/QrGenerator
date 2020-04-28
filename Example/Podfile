@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'QrGenerator_Example' do
+  pod 'QrGenerator', :path => '../'
+
+  target 'QrGenerator_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
