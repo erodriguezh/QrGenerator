@@ -1,0 +1,6 @@
+framework module QrGenerator {
+  umbrella header "QrGenerator-umbrella.h"
+
+  export *
+  module * { export * }
+}

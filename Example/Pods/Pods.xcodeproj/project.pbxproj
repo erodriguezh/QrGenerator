@@ -1,0 +1,796 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		148390B98DC2CE6C873ACE628019CC3A /* Pods-QrGenerator_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FECF0B9C11F4F618D8ADBED6BB626F2 /* Pods-QrGenerator_Example-dummy.m */; };
+		19A941D8C51BC34A77528E5DE4D5D8E4 /* Pods-QrGenerator_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B272D50EA8A6B5136F523D69D7D6DFD3 /* Pods-QrGenerator_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		27389989C3A3A40549894D42637E63C6 /* Pods-QrGenerator_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 34627FFEAC8845FA8E20839BA63BC465 /* Pods-QrGenerator_Tests-dummy.m */; };
+		348E270E2458B29B00855E26 /* Gradient.m in Sources */ = {isa = PBXBuildFile; fileRef = 348E27062458B29A00855E26 /* Gradient.m */; };
+		348E270F2458B29B00855E26 /* Gradient.h in Headers */ = {isa = PBXBuildFile; fileRef = 348E27072458B29A00855E26 /* Gradient.h */; };
+		348E27102458B29B00855E26 /* Branding.h in Headers */ = {isa = PBXBuildFile; fileRef = 348E27082458B29A00855E26 /* Branding.h */; };
+		348E27112458B29B00855E26 /* Coloring.m in Sources */ = {isa = PBXBuildFile; fileRef = 348E27092458B29A00855E26 /* Coloring.m */; };
+		348E27122458B29B00855E26 /* QrGenerator.h in Headers */ = {isa = PBXBuildFile; fileRef = 348E270A2458B29A00855E26 /* QrGenerator.h */; };
+		348E27132458B29B00855E26 /* QrGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 348E270B2458B29A00855E26 /* QrGenerator.m */; };
+		348E27142458B29B00855E26 /* Coloring.h in Headers */ = {isa = PBXBuildFile; fileRef = 348E270C2458B29A00855E26 /* Coloring.h */; };
+		348E27152458B29B00855E26 /* Branding.m in Sources */ = {isa = PBXBuildFile; fileRef = 348E270D2458B29B00855E26 /* Branding.m */; };
+		466B1DA9A69B42CA691E447637D983C0 /* QrGenerator-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 08968D954B796F8143D7E9A370A857A8 /* QrGenerator-dummy.m */; };
+		77668770F56941E4D7F1FC8469996DC7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		77CA0B7513D9035C9F3D19AAC9A0E667 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		D504FD00A3D6D149BBE2FB92301D2505 /* QrGenerator-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F68CAFE60BFF0F25A78A7879BE6261AD /* QrGenerator-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D713D6C23DC8103419D4616DEECD8507 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		F42800BAC1933C1A7FAE43218CB49B23 /* Pods-QrGenerator_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DA7FE66B076424A91A5806858F66DE22 /* Pods-QrGenerator_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7618B50B42B99F0209934A19ADFA088E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2073C246ADCF51541B1EF95775D39386;
+			remoteInfo = "Pods-QrGenerator_Example";
+		};
+		F3ECAB3BBA5023264C899C38F8858373 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 13227263836773FF78E90C7729F4F481;
+			remoteInfo = QrGenerator;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		08968D954B796F8143D7E9A370A857A8 /* QrGenerator-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "QrGenerator-dummy.m"; sourceTree = "<group>"; };
+		0D402F394697BA5795931D3240ECCE6F /* Pods-QrGenerator_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QrGenerator_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		1581FCA0D9CAE6621BA259D4E923BBE7 /* QrGenerator.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = QrGenerator.modulemap; sourceTree = "<group>"; };
+		22299034AB4AA9CC583E288559EC22BF /* Pods-QrGenerator_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-QrGenerator_Tests.modulemap"; sourceTree = "<group>"; };
+		28473A89C01EDE92BB78C1B15FCA0B47 /* Pods-QrGenerator_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-QrGenerator_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		33DDE70B4FF5A027CC9A94F7BFE0E4A9 /* Pods_QrGenerator_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QrGenerator_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		34627FFEAC8845FA8E20839BA63BC465 /* Pods-QrGenerator_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-QrGenerator_Tests-dummy.m"; sourceTree = "<group>"; };
+		348E27062458B29A00855E26 /* Gradient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Gradient.m; path = QrGenerator/Classes/Gradient.m; sourceTree = "<group>"; };
+		348E27072458B29A00855E26 /* Gradient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Gradient.h; path = QrGenerator/Classes/Gradient.h; sourceTree = "<group>"; };
+		348E27082458B29A00855E26 /* Branding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Branding.h; path = QrGenerator/Classes/Branding.h; sourceTree = "<group>"; };
+		348E27092458B29A00855E26 /* Coloring.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Coloring.m; path = QrGenerator/Classes/Coloring.m; sourceTree = "<group>"; };
+		348E270A2458B29A00855E26 /* QrGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = QrGenerator.h; path = QrGenerator/Classes/QrGenerator.h; sourceTree = "<group>"; };
+		348E270B2458B29A00855E26 /* QrGenerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = QrGenerator.m; path = QrGenerator/Classes/QrGenerator.m; sourceTree = "<group>"; };
+		348E270C2458B29A00855E26 /* Coloring.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Coloring.h; path = QrGenerator/Classes/Coloring.h; sourceTree = "<group>"; };
+		348E270D2458B29B00855E26 /* Branding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Branding.m; path = QrGenerator/Classes/Branding.m; sourceTree = "<group>"; };
+		3A1346D982C6078191C7C1AC41ADB03B /* QrGenerator.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = QrGenerator.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		415CBE211A73446DF9D30939BA35659B /* Pods-QrGenerator_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QrGenerator_Example.release.xcconfig"; sourceTree = "<group>"; };
+		56D085A47593C0AAD52305C6C85E4221 /* Pods-QrGenerator_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-QrGenerator_Example.modulemap"; sourceTree = "<group>"; };
+		5DFF02CD6E0D56B1934D14CC51E72C43 /* Pods_QrGenerator_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QrGenerator_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		62BBCDDBE0F181A418924915415370A0 /* QrGenerator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = QrGenerator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6967A8E7A5813880490F6D78345FF1E9 /* Pods-QrGenerator_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-QrGenerator_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		6AE16AB5BFB48A01D542127F227747F4 /* QrGenerator.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = QrGenerator.xcconfig; sourceTree = "<group>"; };
+		7FFC666F452FB823688F28B09FCC32AE /* Pods-QrGenerator_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-QrGenerator_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		8770441A9747EAAD612F76529397DDA9 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		8FECF0B9C11F4F618D8ADBED6BB626F2 /* Pods-QrGenerator_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-QrGenerator_Example-dummy.m"; sourceTree = "<group>"; };
+		9030A4C34C6500DA6953E38694FFE872 /* Pods-QrGenerator_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-QrGenerator_Example-frameworks.sh"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B272D50EA8A6B5136F523D69D7D6DFD3 /* Pods-QrGenerator_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-QrGenerator_Tests-umbrella.h"; sourceTree = "<group>"; };
+		B6628A5D6BBEDDC86D89E73CE72CBACC /* QrGenerator-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "QrGenerator-Info.plist"; sourceTree = "<group>"; };
+		BB18E72D30D8EE06B3DE46207F469909 /* Pods-QrGenerator_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-QrGenerator_Example-Info.plist"; sourceTree = "<group>"; };
+		C5AF3CF756DDCF870AD90A26256151C6 /* Pods-QrGenerator_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-QrGenerator_Tests-Info.plist"; sourceTree = "<group>"; };
+		C9765349A5664B475F2647372287026D /* Pods-QrGenerator_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QrGenerator_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		D035B1F788BA295D973643537C302E65 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		DA7FE66B076424A91A5806858F66DE22 /* Pods-QrGenerator_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-QrGenerator_Example-umbrella.h"; sourceTree = "<group>"; };
+		E16DCC8F4C4D0622670DC73E11710D44 /* Pods-QrGenerator_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-QrGenerator_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E2EB384FDA2F3B1981BA3EE3476489A2 /* Pods-QrGenerator_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QrGenerator_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		E4816F77E686D1CAB6051143849B4EE6 /* QrGenerator-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "QrGenerator-prefix.pch"; sourceTree = "<group>"; };
+		F68CAFE60BFF0F25A78A7879BE6261AD /* QrGenerator-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "QrGenerator-umbrella.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		080CF9FFFF1F0B156EF1C73C75D4D7C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77668770F56941E4D7F1FC8469996DC7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		251D3A724907BC5242B2A576152BCE1C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D713D6C23DC8103419D4616DEECD8507 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7DB707C6E79082CE10B0F1B48EFFAAB1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77CA0B7513D9035C9F3D19AAC9A0E667 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		53FC967C0A45B6CED0893A9F62B7534F /* Pods-QrGenerator_Example */ = {
+			isa = PBXGroup;
+			children = (
+				56D085A47593C0AAD52305C6C85E4221 /* Pods-QrGenerator_Example.modulemap */,
+				6967A8E7A5813880490F6D78345FF1E9 /* Pods-QrGenerator_Example-acknowledgements.markdown */,
+				7FFC666F452FB823688F28B09FCC32AE /* Pods-QrGenerator_Example-acknowledgements.plist */,
+				8FECF0B9C11F4F618D8ADBED6BB626F2 /* Pods-QrGenerator_Example-dummy.m */,
+				9030A4C34C6500DA6953E38694FFE872 /* Pods-QrGenerator_Example-frameworks.sh */,
+				BB18E72D30D8EE06B3DE46207F469909 /* Pods-QrGenerator_Example-Info.plist */,
+				DA7FE66B076424A91A5806858F66DE22 /* Pods-QrGenerator_Example-umbrella.h */,
+				C9765349A5664B475F2647372287026D /* Pods-QrGenerator_Example.debug.xcconfig */,
+				415CBE211A73446DF9D30939BA35659B /* Pods-QrGenerator_Example.release.xcconfig */,
+			);
+			name = "Pods-QrGenerator_Example";
+			path = "Target Support Files/Pods-QrGenerator_Example";
+			sourceTree = "<group>";
+		};
+		66A8D40C77BE306AAA0498D2FC8F3543 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				53FC967C0A45B6CED0893A9F62B7534F /* Pods-QrGenerator_Example */,
+				EEA942FE16E1C28C48B92AAB40C5BC6A /* Pods-QrGenerator_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		BA318223F69BAB7AFF785DDCFB3543D9 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F3E430C700D7F3F1852E1DFA4D2E0040 /* QrGenerator */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		BA72EE2D0AE2AD1DB29767F0B1415C7F /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				8770441A9747EAAD612F76529397DDA9 /* LICENSE */,
+				3A1346D982C6078191C7C1AC41ADB03B /* QrGenerator.podspec */,
+				D035B1F788BA295D973643537C302E65 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CDAFD6619541BE7291966CADCBC70A50 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5DFF02CD6E0D56B1934D14CC51E72C43 /* Pods_QrGenerator_Example.framework */,
+				33DDE70B4FF5A027CC9A94F7BFE0E4A9 /* Pods_QrGenerator_Tests.framework */,
+				62BBCDDBE0F181A418924915415370A0 /* QrGenerator.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				BA318223F69BAB7AFF785DDCFB3543D9 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				CDAFD6619541BE7291966CADCBC70A50 /* Products */,
+				66A8D40C77BE306AAA0498D2FC8F3543 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EEA942FE16E1C28C48B92AAB40C5BC6A /* Pods-QrGenerator_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				22299034AB4AA9CC583E288559EC22BF /* Pods-QrGenerator_Tests.modulemap */,
+				E16DCC8F4C4D0622670DC73E11710D44 /* Pods-QrGenerator_Tests-acknowledgements.markdown */,
+				28473A89C01EDE92BB78C1B15FCA0B47 /* Pods-QrGenerator_Tests-acknowledgements.plist */,
+				34627FFEAC8845FA8E20839BA63BC465 /* Pods-QrGenerator_Tests-dummy.m */,
+				C5AF3CF756DDCF870AD90A26256151C6 /* Pods-QrGenerator_Tests-Info.plist */,
+				B272D50EA8A6B5136F523D69D7D6DFD3 /* Pods-QrGenerator_Tests-umbrella.h */,
+				0D402F394697BA5795931D3240ECCE6F /* Pods-QrGenerator_Tests.debug.xcconfig */,
+				E2EB384FDA2F3B1981BA3EE3476489A2 /* Pods-QrGenerator_Tests.release.xcconfig */,
+			);
+			name = "Pods-QrGenerator_Tests";
+			path = "Target Support Files/Pods-QrGenerator_Tests";
+			sourceTree = "<group>";
+		};
+		F3E430C700D7F3F1852E1DFA4D2E0040 /* QrGenerator */ = {
+			isa = PBXGroup;
+			children = (
+				348E27082458B29A00855E26 /* Branding.h */,
+				348E270D2458B29B00855E26 /* Branding.m */,
+				348E270C2458B29A00855E26 /* Coloring.h */,
+				348E27092458B29A00855E26 /* Coloring.m */,
+				348E27072458B29A00855E26 /* Gradient.h */,
+				348E27062458B29A00855E26 /* Gradient.m */,
+				348E270A2458B29A00855E26 /* QrGenerator.h */,
+				348E270B2458B29A00855E26 /* QrGenerator.m */,
+				BA72EE2D0AE2AD1DB29767F0B1415C7F /* Pod */,
+				F96B83166E9A60261FC6CCCB8EB30680 /* Support Files */,
+			);
+			name = QrGenerator;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		F96B83166E9A60261FC6CCCB8EB30680 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1581FCA0D9CAE6621BA259D4E923BBE7 /* QrGenerator.modulemap */,
+				6AE16AB5BFB48A01D542127F227747F4 /* QrGenerator.xcconfig */,
+				08968D954B796F8143D7E9A370A857A8 /* QrGenerator-dummy.m */,
+				B6628A5D6BBEDDC86D89E73CE72CBACC /* QrGenerator-Info.plist */,
+				E4816F77E686D1CAB6051143849B4EE6 /* QrGenerator-prefix.pch */,
+				F68CAFE60BFF0F25A78A7879BE6261AD /* QrGenerator-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/QrGenerator";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		47ED3FAB74BD7FF7759CEF65A8E2B47A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F42800BAC1933C1A7FAE43218CB49B23 /* Pods-QrGenerator_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		716E07468FD145DA56DE7E271D2C9725 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				348E27102458B29B00855E26 /* Branding.h in Headers */,
+				348E27122458B29B00855E26 /* QrGenerator.h in Headers */,
+				348E270F2458B29B00855E26 /* Gradient.h in Headers */,
+				348E27142458B29B00855E26 /* Coloring.h in Headers */,
+				D504FD00A3D6D149BBE2FB92301D2505 /* QrGenerator-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0CB95F4B80B1CB0B51CA873E1D7A43A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19A941D8C51BC34A77528E5DE4D5D8E4 /* Pods-QrGenerator_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		13227263836773FF78E90C7729F4F481 /* QrGenerator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B8D7CFBE4E7E304AD7EFBD49C70DECEA /* Build configuration list for PBXNativeTarget "QrGenerator" */;
+			buildPhases = (
+				716E07468FD145DA56DE7E271D2C9725 /* Headers */,
+				11DC5B6F9557B85C896C3C26F2CBF264 /* Sources */,
+				7DB707C6E79082CE10B0F1B48EFFAAB1 /* Frameworks */,
+				3A09EC67B94C4A6F035266FC42C508F8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QrGenerator;
+			productName = QrGenerator;
+			productReference = 62BBCDDBE0F181A418924915415370A0 /* QrGenerator.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		2073C246ADCF51541B1EF95775D39386 /* Pods-QrGenerator_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6B6940E1C0876E46E8079371514736F6 /* Build configuration list for PBXNativeTarget "Pods-QrGenerator_Example" */;
+			buildPhases = (
+				47ED3FAB74BD7FF7759CEF65A8E2B47A /* Headers */,
+				88BE59F7C781504E4A0D7078967AA108 /* Sources */,
+				251D3A724907BC5242B2A576152BCE1C /* Frameworks */,
+				9A4A7F3D494568A14ED86E1CD4442B01 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7752B37D1BE69C1172659D7368303F91 /* PBXTargetDependency */,
+			);
+			name = "Pods-QrGenerator_Example";
+			productName = "Pods-QrGenerator_Example";
+			productReference = 5DFF02CD6E0D56B1934D14CC51E72C43 /* Pods_QrGenerator_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		3618CEE80E76D2633CDD1FBFA1EE4483 /* Pods-QrGenerator_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2419EFDDFAF8061B432FEEFD84CDE37A /* Build configuration list for PBXNativeTarget "Pods-QrGenerator_Tests" */;
+			buildPhases = (
+				B0CB95F4B80B1CB0B51CA873E1D7A43A /* Headers */,
+				7DA01EFB641C6F297684E0AA9165FA98 /* Sources */,
+				080CF9FFFF1F0B156EF1C73C75D4D7C7 /* Frameworks */,
+				6C765CD215FA5843FD407E8AB0929239 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AD02EC6FCD729B6DD0503813804902FB /* PBXTargetDependency */,
+			);
+			name = "Pods-QrGenerator_Tests";
+			productName = "Pods-QrGenerator_Tests";
+			productReference = 33DDE70B4FF5A027CC9A94F7BFE0E4A9 /* Pods_QrGenerator_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = CDAFD6619541BE7291966CADCBC70A50 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2073C246ADCF51541B1EF95775D39386 /* Pods-QrGenerator_Example */,
+				3618CEE80E76D2633CDD1FBFA1EE4483 /* Pods-QrGenerator_Tests */,
+				13227263836773FF78E90C7729F4F481 /* QrGenerator */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3A09EC67B94C4A6F035266FC42C508F8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C765CD215FA5843FD407E8AB0929239 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A4A7F3D494568A14ED86E1CD4442B01 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		11DC5B6F9557B85C896C3C26F2CBF264 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				348E27152458B29B00855E26 /* Branding.m in Sources */,
+				466B1DA9A69B42CA691E447637D983C0 /* QrGenerator-dummy.m in Sources */,
+				348E27112458B29B00855E26 /* Coloring.m in Sources */,
+				348E27132458B29B00855E26 /* QrGenerator.m in Sources */,
+				348E270E2458B29B00855E26 /* Gradient.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7DA01EFB641C6F297684E0AA9165FA98 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27389989C3A3A40549894D42637E63C6 /* Pods-QrGenerator_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88BE59F7C781504E4A0D7078967AA108 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				148390B98DC2CE6C873ACE628019CC3A /* Pods-QrGenerator_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7752B37D1BE69C1172659D7368303F91 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = QrGenerator;
+			target = 13227263836773FF78E90C7729F4F481 /* QrGenerator */;
+			targetProxy = F3ECAB3BBA5023264C899C38F8858373 /* PBXContainerItemProxy */;
+		};
+		AD02EC6FCD729B6DD0503813804902FB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-QrGenerator_Example";
+			target = 2073C246ADCF51541B1EF95775D39386 /* Pods-QrGenerator_Example */;
+			targetProxy = 7618B50B42B99F0209934A19ADFA088E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1665272D2F4ACCCE4C6B16A254ABA263 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0D402F394697BA5795931D3240ECCE6F /* Pods-QrGenerator_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-QrGenerator_Tests/Pods-QrGenerator_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-QrGenerator_Tests/Pods-QrGenerator_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		1B176CA354FB7EC661588647335F793F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C9765349A5664B475F2647372287026D /* Pods-QrGenerator_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-QrGenerator_Example/Pods-QrGenerator_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-QrGenerator_Example/Pods-QrGenerator_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4BE66A09A74FD25164AAB3C2645B9B93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		56708BA62FC0A7ED281D2532B28270CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6AE16AB5BFB48A01D542127F227747F4 /* QrGenerator.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/QrGenerator/QrGenerator-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/QrGenerator/QrGenerator-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/QrGenerator/QrGenerator.modulemap";
+				PRODUCT_MODULE_NAME = QrGenerator;
+				PRODUCT_NAME = QrGenerator;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7EF7227D9B20A1D549000096ACCB23D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		AAC691A3476FFFA2842D35F4196F2AD4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E2EB384FDA2F3B1981BA3EE3476489A2 /* Pods-QrGenerator_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-QrGenerator_Tests/Pods-QrGenerator_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-QrGenerator_Tests/Pods-QrGenerator_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C7759CDAB7C6097336AF0FDA7374F054 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6AE16AB5BFB48A01D542127F227747F4 /* QrGenerator.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/QrGenerator/QrGenerator-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/QrGenerator/QrGenerator-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/QrGenerator/QrGenerator.modulemap";
+				PRODUCT_MODULE_NAME = QrGenerator;
+				PRODUCT_NAME = QrGenerator;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F149FBE5F3D3A4A1A3D5E1F86232268A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 415CBE211A73446DF9D30939BA35659B /* Pods-QrGenerator_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-QrGenerator_Example/Pods-QrGenerator_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-QrGenerator_Example/Pods-QrGenerator_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2419EFDDFAF8061B432FEEFD84CDE37A /* Build configuration list for PBXNativeTarget "Pods-QrGenerator_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1665272D2F4ACCCE4C6B16A254ABA263 /* Debug */,
+				AAC691A3476FFFA2842D35F4196F2AD4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7EF7227D9B20A1D549000096ACCB23D7 /* Debug */,
+				4BE66A09A74FD25164AAB3C2645B9B93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6B6940E1C0876E46E8079371514736F6 /* Build configuration list for PBXNativeTarget "Pods-QrGenerator_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B176CA354FB7EC661588647335F793F /* Debug */,
+				F149FBE5F3D3A4A1A3D5E1F86232268A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B8D7CFBE4E7E304AD7EFBD49C70DECEA /* Build configuration list for PBXNativeTarget "QrGenerator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7759CDAB7C6097336AF0FDA7374F054 /* Debug */,
+				56708BA62FC0A7ED281D2532B28270CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

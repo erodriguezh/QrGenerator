@@ -1,0 +1,6 @@
+framework module Pods_QrGenerator_Tests {
+  umbrella header "Pods-QrGenerator_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,16 @@
+PODS:
+  - QrGenerator (0.1.0)
+
+DEPENDENCIES:
+  - QrGenerator (from `../`)
+
+EXTERNAL SOURCES:
+  QrGenerator:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  QrGenerator: ecd8c466699f3d6663e5d21ce20c59ca2c0396cf
+
+PODFILE CHECKSUM: 0113a0fa773a6b83ab30a370d465f394e0c260af
+
+COCOAPODS: 1.7.5

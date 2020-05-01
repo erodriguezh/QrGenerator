@@ -9,5 +9,9 @@
 @import UIKit;
 
 @interface DEMOViewController : UIViewController
+@property (strong, nonatomic) IBOutlet UIImageView *baseQrImg;
+@property (strong, nonatomic) IBOutlet UIImageView *colorQrImg;
+@property (strong, nonatomic) IBOutlet UIImageView *gradientQrImg;
+@property (strong, nonatomic) IBOutlet UIImageView *colorLogoQrImg;
 
 @end
